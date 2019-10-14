@@ -2,13 +2,15 @@
   <a-assets>
     <video
       id="antarctica"
-      src="https://ucarecdn.com/fadab25d-0b3a-45f7-8ef5-85318e92a261/"
       autoplay
-      loop
-      crossorigin="anonymous"
+      loop="true"
+      src="https://ucarecdn.com/fadab25d-0b3a-45f7-8ef5-85318e92a261/"
     ></video>
   </a-assets>
 
   <!-- Using the asset management system. -->
-  <a-videosphere src="#antarctica" rotation="0 80 0"></a-videosphere>
+  <a-videosphere src="#antarctica"></a-videosphere>
+
+  <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+  <a-videosphere src="africa.mp4"></a-videosphere>
 </a-scene>
